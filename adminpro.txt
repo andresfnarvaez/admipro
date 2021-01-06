@@ -1,0 +1,23 @@
+ adminpro.
+
+crear el proyecto
+ ng new adminpro.
+
+crear componente.
+1. ng g c login --spec=false -is
+2. 
+crear componentes y carpetas.
+3. ng g c pages/dashboard --spec=false -is
+4. ng g c pages/progress --spec=false -is
+5. ng g c pages/graficas1 --spec=false -is
+.  ng g c pagesnopagefound --spec=false -is  (pagina para cuando no se encuentra lo que se quiere).
+
+crear carpetas y componentes
+
+6. ng g c shared/header --spec=false -is
+7. ng g c shared/sidebar --spec=false -is
+8. ng g c shared/breadcrumbs --spec=false -is
+
+crear servicios
+9. ng g s services/shared --spec=false
+10. ng g s services/sidebar --spec=false
